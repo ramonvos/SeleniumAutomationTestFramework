@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomationTestFramework.Utils", "SeleniumAutomationTestFramework\SeleniumAutomationTestFramework.Utils.csproj", "{CABA96C9-0FC1-4017-8100-8F10420AF151}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomationTestFramework.Selenium", "SeleniumAutomationTestFramework.Selenium\SeleniumAutomationTestFramework.Selenium.csproj", "{830C3D9D-142A-4D72-BAD0-13D342AA1F01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomationTestFramework.Tests", "SeleniumAutomationTestFramework.Tests\SeleniumAutomationTestFramework.Tests.csproj", "{C8DB1E14-070F-4229-9871-E7BCCCA63DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumAutomationTestFramework.Common", "SeleniumAutomationTestFramework.Common\SeleniumAutomationTestFramework.Common.csproj", "{19DCA053-DA56-4127-B3DA-0A88AE284637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C8DB1E14-070F-4229-9871-E7BCCCA63DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DB1E14-070F-4229-9871-E7BCCCA63DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DB1E14-070F-4229-9871-E7BCCCA63DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DCA053-DA56-4127-B3DA-0A88AE284637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DCA053-DA56-4127-B3DA-0A88AE284637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DCA053-DA56-4127-B3DA-0A88AE284637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DCA053-DA56-4127-B3DA-0A88AE284637}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
